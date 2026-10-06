@@ -1,0 +1,1569 @@
+
+
+
+---
+
+# 🎯 Master Interview Preparation Roadmap
+
+We will follow **two parallel tracks**:
+
+```text
+TRACK 1 → Interview & Backend Fundamentals
+TRACK 2 → Modern Engineering & Enterprise Project
+```
+
+And eventually, everything merges into:
+
+```text
+                    AI DOCUMENT ASSISTANT
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+   Java & Spring       Cloud & DevOps      AI & Async
+        │                  │                  │
+     MySQL              Docker              Kafka
+        │                  │                  │
+   Security             AWS              Microservices
+        │
+      React
+```
+
+---
+
+# 🟦 TRACK 1 — CORE JAVA & INTERVIEW FUNDAMENTALS
+
+# MODULE 1 — Java & OOP Fundamentals
+
+## 1.1 Java Overview
+
+* [ ] What is Java?
+* [ ] JDK vs JRE vs JVM
+* [ ] How Java code executes
+* [ ] Compilation vs Interpretation
+* [ ] Platform independence
+* [ ] Bytecode
+
+
+---
+
+## 1.2 Object-Oriented Programming
+
+### OOP Basics
+
+* [ ] Class
+* [ ] Object
+* [ ] State
+* [ ] Behaviour
+* [ ] Constructor
+
+### Encapsulation
+
+* [ ] What is encapsulation?
+* [ ] Why use private fields?
+* [ ] Getters and setters
+* [ ] Data hiding
+* [ ] Validation through encapsulation
+* [ ] Enterprise example
+
+### Inheritance
+
+* [ ] What is inheritance?
+* [ ] Types of inheritance
+* [ ] `extends`
+* [ ] `super`
+* [ ] Method inheritance
+* [ ] Constructor inheritance
+* [ ] IS-A relationship
+* [ ] When not to use inheritance
+
+### Polymorphism
+
+* [ ] What is polymorphism?
+* [ ] Compile-time polymorphism
+* [ ] Method overloading
+* [ ] Runtime polymorphism
+* [ ] Method overriding
+* [ ] Dynamic method dispatch
+* [ ] Enterprise examples
+
+### Abstraction
+
+* [ ] What is abstraction?
+* [ ] Abstract classes
+* [ ] Abstract methods
+* [ ] Interfaces
+* [ ] Default methods
+* [ ] Static interface methods
+* [ ] When to use abstract class
+* [ ] When to use interface
+
+### Important Comparison
+
+* [ ] Interface vs Abstract Class
+* [ ] Composition vs Inheritance
+* [ ] Association
+* [ ] Aggregation
+* [ ] Composition
+
+---
+
+# MODULE 2 — Java Language Fundamentals
+
+## 2.1 Variables & Data Types
+
+* [ ] memery allocation - heap memory, 
+* [ ] method execution with respect to the memory allocaiton
+* [ ] Primitive types
+* [ ] Wrapper classes
+* [ ] Autoboxing
+* [ ] Unboxing
+* [ ] Type casting
+* [ ] Widening
+* [ ] Narrowing
+
+---
+
+## 2.2 Java Keywords
+
+* [ ] `static`
+* [ ] `final`
+* [ ] `finally`
+* [ ] `finalize`
+* [ ] `this`
+* [ ] `super`
+* [ ] `instanceof`
+* [ ] `transient`
+* [ ] `volatile`
+
+### Important Comparison
+
+* [ ] `final` vs `finally` vs `finalize`
+* [ ] `static` vs instance
+
+---
+
+## 2.3 Strings
+
+* [ ] String immutability
+* [ ] String pool
+* [ ] String vs StringBuilder
+* [ ] StringBuilder vs StringBuffer
+* [ ] `equals()` vs `==`
+* [ ] `intern()`
+* [ ] recurrsion
+
+---
+
+# MODULE 3 — Collections Framework ⭐ HIGH PRIORITY
+
+## 3.1 Collections Overview
+
+* [ ] What is Collection Framework?
+* [ ] Collection hierarchy
+* [ ] Collection vs Collections
+* [ ] Iterable
+
+---
+
+## 3.2 List
+
+### ArrayList
+
+* [ ] Internal working
+* [ ] Dynamic array
+* [ ] Capacity
+* [ ] Resize
+* [ ] Performance
+* [ ] When to use
+
+### LinkedList
+
+* [ ] Internal working
+* [ ] Nodes
+* [ ] Performance
+* [ ] When to use
+
+### Comparison
+
+* [ ] ArrayList vs LinkedList
+
+---
+
+## 3.3 Set
+
+### HashSet
+
+* [ ] Internal working
+* [ ] Relationship with HashMap
+* [ ] Duplicate prevention
+
+### LinkedHashSet
+
+* [ ] Insertion order
+
+### TreeSet
+
+* [ ] Sorting
+* [ ] Red-Black Tree basics
+
+### Comparison
+
+* [ ] HashSet vs LinkedHashSet vs TreeSet
+
+---
+
+## 3.4 Map ⭐ VERY IMPORTANT
+
+### HashMap
+
+* [ ] Internal working
+* [ ] Hashing
+* [ ] `hashCode()`
+* [ ] `equals()`
+* [ ] Buckets
+* [ ] Collision
+* [ ] Linked list
+* [ ] Treeification
+* [ ] Load factor
+* [ ] Initial capacity
+* [ ] Resize
+* [ ] Null key
+* [ ] Null values
+* [ ] Time complexity
+
+### LinkedHashMap
+
+* [ ] Insertion order
+* [ ] Access order
+* [ ] LRU Cache basics
+
+### TreeMap
+
+* [ ] Sorting
+* [ ] Red-Black Tree basics
+
+### Hashtable
+
+* [ ] Legacy collection
+* [ ] Synchronization
+
+### ConcurrentHashMap ⭐
+
+* [ ] Thread safety
+* [ ] Internal working
+* [ ] Java 7 vs Java 8
+* [ ] Locking
+* [ ] Performance
+
+### Comparison
+
+* [ ] HashMap vs Hashtable
+* [ ] HashMap vs ConcurrentHashMap
+* [ ] HashMap vs TreeMap
+* [ ] HashMap vs LinkedHashMap
+
+---
+
+# MODULE 4 — Exception Handling
+
+## Basics
+
+* [ ] Exception hierarchy
+* [ ] Error vs Exception
+* [ ] Checked exception
+* [ ] Unchecked exception
+* [ ] RuntimeException
+
+---
+
+## Handling
+
+* [ ] try
+* [ ] catch
+* [ ] finally
+* [ ] throw
+* [ ] throws
+
+---
+
+## Advanced
+
+* [ ] Custom exception
+* [ ] Exception propagation
+* [ ] Multi-catch
+* [ ] Try-with-resources
+* [ ] Suppressed exceptions
+
+---
+
+## Enterprise Practice
+
+* [ ] Custom business exceptions
+* [ ] Global exception handling
+* [ ] Exception logging
+* [ ] Error response design
+
+---
+
+# MODULE 5 — Java 8+ ⭐ HIGH PRIORITY
+
+## 5.1 Lambda Expressions
+
+* [ ] What problem do lambdas solve?
+* [ ] Syntax
+* [ ] Functional programming basics
+* [ ] Lambda examples
+
+---
+
+## 5.2 Functional Interfaces
+
+* [ ] Functional interface
+* [ ] `@FunctionalInterface`
+
+### Important Interfaces
+
+* [ ] Predicate
+* [ ] Function
+* [ ] Consumer
+* [ ] Supplier
+
+---
+
+## 5.3 Streams ⭐
+
+### Basics
+
+* [ ] What is Stream?
+* [ ] Stream vs Collection
+* [ ] Stream pipeline
+
+### Intermediate Operations
+
+* [ ] filter
+* [ ] map
+* [ ] flatMap
+* [ ] distinct
+* [ ] sorted
+* [ ] limit
+* [ ] skip
+* [ ] peek
+
+### Terminal Operations
+
+* [ ] collect
+* [ ] forEach
+* [ ] count
+* [ ] reduce
+* [ ] min
+* [ ] max
+* [ ] anyMatch
+* [ ] allMatch
+* [ ] noneMatch
+
+### Collectors
+
+* [ ] toList
+* [ ] toSet
+* [ ] groupingBy
+* [ ] partitioningBy
+* [ ] joining
+* [ ] counting
+* [ ] summarizing
+
+### Advanced
+
+* [ ] Parallel Streams
+* [ ] When not to use parallel streams
+* [ ] Performance considerations
+
+---
+
+## 5.4 Optional
+
+* [ ] Why Optional?
+* [ ] Optional methods
+* [ ] `orElse`
+* [ ] `orElseGet`
+* [ ] `orElseThrow`
+* [ ] `map`
+* [ ] `flatMap`
+* [ ] Common mistakes
+
+---
+
+# MODULE 6 — Multithreading & Concurrency ⭐ HIGH PRIORITY
+
+## Basics
+
+* [ ] Process vs Thread
+* [ ] Thread lifecycle
+* [ ] Creating Thread
+* [ ] Runnable
+* [ ] Callable
+
+---
+
+## Synchronization
+
+* [ ] Race condition
+* [ ] synchronized
+* [ ] Object lock
+* [ ] Class lock
+* [ ] Deadlock
+* [ ] Livelock
+* [ ] Starvation
+
+---
+
+## Communication
+
+* [ ] wait
+* [ ] notify
+* [ ] notifyAll
+
+---
+
+## Executor Framework ⭐
+
+* [ ] Executor
+* [ ] ExecutorService
+* [ ] ThreadPool
+* [ ] FixedThreadPool
+* [ ] CachedThreadPool
+* [ ] ScheduledThreadPool
+
+---
+
+## Future
+
+* [ ] Future
+* [ ] Callable
+* [ ] FutureTask
+
+---
+
+## CompletableFuture ⭐
+
+* [ ] supplyAsync
+* [ ] runAsync
+* [ ] thenApply
+* [ ] thenAccept
+* [ ] thenCompose
+* [ ] thenCombine
+* [ ] Exception handling
+
+---
+
+## Concurrent Collections
+
+* [ ] ConcurrentHashMap
+* [ ] CopyOnWriteArrayList
+* [ ] BlockingQueue
+
+---
+
+## Java Memory Model
+
+* [ ] Heap
+* [ ] Stack
+* [ ] Metaspace
+* [ ] Visibility
+* [ ] volatile
+* [ ] happens-before
+
+---
+
+# MODULE 7 — JVM & MEMORY
+
+## JVM Architecture
+
+* [ ] Class Loader
+* [ ] Method Area
+* [ ] Heap
+* [ ] Stack
+* [ ] PC Register
+* [ ] Native Method Stack
+
+---
+
+## Memory
+
+* [ ] Heap
+* [ ] Young Generation
+* [ ] Old Generation
+* [ ] Metaspace
+
+---
+
+## Garbage Collection
+
+* [ ] What is GC?
+* [ ] Minor GC
+* [ ] Major GC
+* [ ] Full GC
+* [ ] Garbage collectors basics
+
+---
+
+## Memory Problems
+
+* [ ] Memory leak
+* [ ] OutOfMemoryError
+* [ ] StackOverflowError
+
+---
+
+# MODULE 8 — SOLID & DESIGN PRINCIPLES ⭐
+
+## SOLID
+
+### S — Single Responsibility Principle
+
+* [ ] Definition
+* [ ] Bad example
+* [ ] Good example
+
+### O — Open Closed Principle
+
+* [ ] Definition
+* [ ] Strategy Pattern connection
+
+### L — Liskov Substitution Principle
+
+* [ ] Definition
+* [ ] Common violations
+
+### I — Interface Segregation Principle
+
+* [ ] Definition
+* [ ] Fat interfaces
+
+### D — Dependency Inversion Principle
+
+* [ ] Definition
+* [ ] Spring DI connection
+
+---
+
+## Additional Principles
+
+* [ ] DRY
+* [ ] KISS
+* [ ] YAGNI
+* [ ] Separation of Concerns
+
+---
+
+# 🟩 MODULE 9 — SPRING FRAMEWORK
+
+# 9.1 Spring Basics
+
+* [ ] What problem does Spring solve?
+* [ ] Spring Framework
+* [ ] Spring Boot
+* [ ] Spring vs Spring Boot
+
+---
+
+# 9.2 IoC
+
+* [ ] Inversion of Control
+* [ ] IoC Container
+* [ ] ApplicationContext
+* [ ] BeanFactory
+
+---
+
+# 9.3 Dependency Injection ⭐
+
+* [ ] Constructor injection
+* [ ] Setter injection
+* [ ] Field injection
+* [ ] Why constructor injection?
+* [ ] Circular dependencies
+
+---
+
+# 9.4 Spring Beans
+
+* [ ] What is Bean?
+* [ ] Bean lifecycle
+* [ ] Bean scopes
+
+### Scopes
+
+* [ ] Singleton
+* [ ] Prototype
+* [ ] Request
+* [ ] Session
+
+---
+
+# 9.5 Stereotype Annotations
+
+* [ ] `@Component`
+* [ ] `@Service`
+* [ ] `@Repository`
+* [ ] `@Controller`
+* [ ] `@RestController`
+
+---
+
+# 9.6 Configuration
+
+* [ ] `@Configuration`
+* [ ] `@Bean`
+* [ ] `@Value`
+* [ ] `@ConfigurationProperties`
+* [ ] Profiles
+
+---
+
+# 🟩 MODULE 10 — SPRING BOOT ⭐ VERY HIGH PRIORITY
+
+## Basics
+
+* [ ] What is Spring Boot?
+* [ ] Auto Configuration
+* [ ] Starter Dependencies
+* [ ] Embedded Server
+* [ ] Spring Boot lifecycle
+
+---
+
+## Configuration
+
+* [ ] application.properties
+* [ ] application.yml
+* [ ] Profiles
+* [ ] Environment variables
+
+---
+
+## REST APIs ⭐
+
+### HTTP
+
+* [ ] GET
+* [ ] POST
+* [ ] PUT
+* [ ] PATCH
+* [ ] DELETE
+
+### HTTP Status Codes
+
+* [ ] 200
+* [ ] 201
+* [ ] 204
+* [ ] 400
+* [ ] 401
+* [ ] 403
+* [ ] 404
+* [ ] 409
+* [ ] 500
+
+---
+
+## REST Design
+
+* [ ] Resource naming
+* [ ] Request DTO
+* [ ] Response DTO
+* [ ] Pagination
+* [ ] Filtering
+* [ ] Sorting
+* [ ] API versioning
+
+---
+
+## Validation
+
+* [ ] `@Valid`
+* [ ] `@NotNull`
+* [ ] `@NotBlank`
+* [ ] `@Size`
+* [ ] Custom validation
+
+---
+
+## Exception Handling
+
+* [ ] `@ControllerAdvice`
+* [ ] `@ExceptionHandler`
+* [ ] Error response
+
+---
+
+# 🟩 MODULE 11 — SPRING DATA JPA & HIBERNATE ⭐
+
+## Basics
+
+* [ ] ORM
+* [ ] JPA
+* [ ] Hibernate
+* [ ] JPA vs Hibernate
+
+---
+
+## Entities
+
+* [ ] `@Entity`
+* [ ] `@Table`
+* [ ] `@Id`
+* [ ] `@GeneratedValue`
+
+---
+
+## Relationships ⭐
+
+* [ ] OneToOne
+* [ ] OneToMany
+* [ ] ManyToOne
+* [ ] ManyToMany
+
+---
+
+## Fetching
+
+* [ ] Lazy Loading
+* [ ] Eager Loading
+* [ ] N+1 Problem
+
+---
+
+## Cascading
+
+* [ ] CascadeType
+* [ ] Orphan Removal
+
+---
+
+## Transactions ⭐
+
+* [ ] `@Transactional`
+* [ ] Propagation
+* [ ] Isolation levels
+* [ ] Rollback
+
+---
+
+## Querying
+
+* [ ] Derived Queries
+* [ ] JPQL
+* [ ] Native Query
+* [ ] Criteria basics
+
+---
+
+## Performance
+
+* [ ] Indexing
+* [ ] Pagination
+* [ ] Batch processing
+* [ ] Query optimization
+
+---
+
+# 🟨 MODULE 12 — SPRING SECURITY & JWT
+
+## Security Basics
+
+* [ ] Authentication
+* [ ] Authorization
+
+---
+
+## Spring Security
+
+* [ ] Security Filter Chain
+* [ ] Filters
+* [ ] Authentication flow
+* [ ] Authorization flow
+
+---
+
+## JWT
+
+* [ ] JWT structure
+* [ ] Header
+* [ ] Payload
+* [ ] Signature
+* [ ] Access Token
+* [ ] Refresh Token
+
+---
+
+## Implementation
+
+* [ ] Login
+* [ ] Token generation
+* [ ] Token validation
+* [ ] Role-based authorization
+
+---
+
+# 🟦 MODULE 13 — SQL & DATABASE ⭐ HIGH PRIORITY
+
+# SQL Basics
+
+* [ ] SELECT
+* [ ] INSERT
+* [ ] UPDATE
+* [ ] DELETE
+
+---
+
+# Joins ⭐
+
+* [ ] INNER JOIN
+* [ ] LEFT JOIN
+* [ ] RIGHT JOIN
+* [ ] FULL JOIN
+
+---
+
+# Advanced SQL
+
+* [ ] GROUP BY
+* [ ] HAVING
+* [ ] Subqueries
+* [ ] CTE
+* [ ] Window Functions
+
+---
+
+# Database Design
+
+* [ ] Primary Key
+* [ ] Foreign Key
+* [ ] Unique Constraint
+* [ ] Normalization
+
+---
+
+# Performance
+
+* [ ] Indexes
+* [ ] Composite Index
+* [ ] Query Optimization
+* [ ] Explain Plan
+
+---
+
+# 🟪 MODULE 14 — MICROSERVICES ⭐
+
+## Basics
+
+* [ ] Monolith
+* [ ] Microservices
+* [ ] Advantages
+* [ ] Disadvantages
+* [ ] When NOT to use microservices
+
+---
+
+## Communication
+
+* [ ] REST
+* [ ] Synchronous
+* [ ] Asynchronous
+* [ ] Event-driven
+
+---
+
+## Components
+
+* [ ] API Gateway
+* [ ] Service Discovery
+* [ ] Configuration Management
+
+---
+
+## Reliability
+
+* [ ] Retry
+* [ ] Timeout
+* [ ] Circuit Breaker
+* [ ] Bulkhead
+
+---
+
+# 🟧 MODULE 15 — DOCKER ⭐
+
+# Basics
+
+* [ ] What problem does Docker solve?
+* [ ] Container
+* [ ] Image
+* [ ] Docker Architecture
+
+---
+
+## Commands
+
+* [ ] docker pull
+* [ ] docker images
+* [ ] docker ps
+* [ ] docker run
+* [ ] docker stop
+* [ ] docker rm
+
+---
+
+## Dockerfile ⭐
+
+* [ ] FROM
+* [ ] WORKDIR
+* [ ] COPY
+* [ ] RUN
+* [ ] CMD
+* [ ] ENTRYPOINT
+* [ ] EXPOSE
+
+---
+
+## Docker Concepts
+
+* [ ] Layers
+* [ ] Cache
+* [ ] Volumes
+* [ ] Networks
+
+---
+
+## Docker Compose ⭐
+
+* [ ] Services
+* [ ] Networks
+* [ ] Volumes
+* [ ] Environment variables
+
+---
+
+# 🟧 MODULE 16 — AWS ⭐
+
+Since you already have some exposure, we'll focus on understanding **why and when to use each service**.
+
+---
+
+## IAM
+
+* [ ] User
+* [ ] Role
+* [ ] Policy
+* [ ] Permission
+* [ ] Least privilege
+
+---
+
+## EC2
+
+* [ ] Instance
+* [ ] AMI
+* [ ] Security Group
+* [ ] Auto Scaling basics
+
+---
+
+## S3
+
+* [ ] Bucket
+* [ ] Object
+* [ ] Versioning
+* [ ] Encryption
+* [ ] Pre-signed URL
+
+---
+
+## RDS
+
+* [ ] Managed database
+* [ ] Multi-AZ
+* [ ] Backup
+* [ ] Read Replica
+
+---
+
+## VPC Basics
+
+* [ ] VPC
+* [ ] Subnet
+* [ ] Public subnet
+* [ ] Private subnet
+* [ ] Internet Gateway
+* [ ] NAT Gateway
+
+---
+
+## CloudWatch
+
+* [ ] Logs
+* [ ] Metrics
+* [ ] Alarms
+
+---
+
+## ECS Basics
+
+* [ ] ECS
+* [ ] Task
+* [ ] Service
+* [ ] Fargate
+
+---
+
+# 🟧 MODULE 17 — KAFKA ⭐
+
+# Basics
+
+* [ ] Why Kafka?
+* [ ] Event-driven architecture
+* [ ] Topic
+* [ ] Broker
+* [ ] Cluster
+
+---
+
+## Producer
+
+* [ ] Producer
+* [ ] Publish event
+* [ ] Partition
+
+---
+
+## Consumer
+
+* [ ] Consumer
+* [ ] Consumer Group
+* [ ] Offset
+
+---
+
+## Architecture
+
+* [ ] Partition
+* [ ] Replication
+* [ ] Ordering
+
+---
+
+## Spring Boot + Kafka
+
+* [ ] Kafka Producer
+* [ ] Kafka Consumer
+* [ ] Serialization
+* [ ] Deserialization
+
+---
+
+## Reliability
+
+* [ ] Retry
+* [ ] Dead Letter Topic
+* [ ] Idempotency
+* [ ] Duplicate events
+
+---
+
+# 🟧 MODULE 18 — KUBERNETES BASICS
+
+We only learn enough for interviews.
+
+---
+
+## Basics
+
+* [ ] What problem does Kubernetes solve?
+* [ ] Container orchestration
+
+---
+
+## Components
+
+* [ ] Pod
+* [ ] Deployment
+* [ ] Service
+
+---
+
+## Configuration
+
+* [ ] ConfigMap
+* [ ] Secret
+
+---
+
+## Deployment
+
+* [ ] Rolling Update
+* [ ] Rollback
+
+---
+
+# 🟨 MODULE 19 — REACT BASICS
+
+Only enough to understand frontend integration.
+
+---
+
+## Basics
+
+* [ ] Components
+* [ ] JSX
+* [ ] Props
+* [ ] State
+
+---
+
+## Hooks
+
+* [ ] useState
+* [ ] useEffect
+
+---
+
+## Routing
+
+* [ ] React Router
+
+---
+
+## APIs
+
+* [ ] Axios
+* [ ] Fetch API
+
+---
+
+## Forms
+
+* [ ] Controlled components
+* [ ] Validation
+
+---
+
+# 🟪 MODULE 20 — SYSTEM DESIGN BASICS
+
+# Fundamentals
+
+* [ ] Scalability
+* [ ] Availability
+* [ ] Reliability
+* [ ] Latency
+* [ ] Throughput
+
+---
+
+## Components
+
+* [ ] Load Balancer
+* [ ] Cache
+* [ ] Database
+* [ ] Queue
+
+---
+
+## Scaling
+
+* [ ] Vertical Scaling
+* [ ] Horizontal Scaling
+
+---
+
+## Database
+
+* [ ] SQL vs NoSQL
+* [ ] Replication
+* [ ] Sharding
+
+---
+
+## Caching
+
+* [ ] Redis basics
+* [ ] Cache Aside
+* [ ] TTL
+
+---
+
+# 🟥 MODULE 21 — CODING & DSA
+
+We don't need competitive programming.
+
+Focus on interview patterns.
+
+---
+
+## Arrays
+
+* [ ] Two Sum
+* [ ] Sliding Window
+* [ ] Two Pointer
+
+---
+
+## Strings
+
+* [ ] Reverse
+* [ ] Palindrome
+* [ ] Anagram
+* [ ] Frequency
+
+---
+
+## Hashing
+
+* [ ] HashMap
+* [ ] HashSet
+
+---
+
+## Stack
+
+* [ ] Valid Parentheses
+* [ ] Monotonic Stack basics
+
+---
+
+## Queue
+
+* [ ] Queue
+* [ ] Priority Queue
+
+---
+
+## Linked List
+
+* [ ] Reverse Linked List
+* [ ] Cycle Detection
+
+---
+
+## Trees
+
+* [ ] DFS
+* [ ] BFS
+
+---
+
+## Binary Search
+
+* [ ] Binary Search
+* [ ] Search patterns
+
+---
+
+# 🟫 TRACK 2 — ENTERPRISE PROJECT
+
+# MODULE 22 — Project Foundation
+
+## AI Document Processing Platform
+
+### Phase 1
+
+* [ ] Create Spring Boot project
+* [ ] Setup database
+* [ ] Create User
+* [ ] Create Document
+* [ ] REST APIs
+
+---
+
+### Phase 2
+
+* [ ] JWT authentication
+* [ ] Roles
+* [ ] Authorization
+
+---
+
+### Phase 3
+
+* [ ] File Upload
+* [ ] S3 integration
+* [ ] Document metadata
+
+---
+
+### Phase 4
+
+* [ ] AI integration
+* [ ] Prompt design
+* [ ] Structured JSON response
+* [ ] Data extraction
+
+---
+
+### Phase 5
+
+* [ ] Kafka
+* [ ] Async processing
+* [ ] Retry
+* [ ] Dead Letter Topic
+
+---
+
+### Phase 6
+
+* [ ] Notification
+* [ ] Email
+* [ ] Event-driven notification
+
+---
+
+### Phase 7
+
+* [ ] Docker
+* [ ] Docker Compose
+
+---
+
+### Phase 8
+
+* [ ] AWS Deployment
+
+```text
+EC2
+RDS
+S3
+```
+
+---
+
+### Phase 9
+
+* [ ] React Dashboard
+
+```text
+Login
+
+Dashboard
+
+Upload
+
+Document List
+
+AI Results
+```
+
+---
+
+# 🏢 MODULE 23 — ENTERPRISE APPLICATION CONCEPTS
+
+These are extremely important for your interviews.
+
+---
+
+## Logging
+
+* [ ] SLF4J
+* [ ] Log levels
+* [ ] Structured logging
+* [ ] Correlation ID
+
+---
+
+## Exception Handling
+
+* [ ] Global Exception Handler
+* [ ] Business Exceptions
+* [ ] Error Codes
+
+---
+
+## Validation
+
+* [ ] Request validation
+* [ ] Business validation
+
+---
+
+## Auditing
+
+* [ ] createdBy
+* [ ] createdDate
+* [ ] updatedBy
+* [ ] updatedDate
+
+---
+
+## API Documentation
+
+* [ ] Swagger
+* [ ] OpenAPI
+
+---
+
+## Testing
+
+* [ ] Unit Testing
+* [ ] JUnit
+* [ ] Mockito
+* [ ] Integration Testing
+
+---
+
+# 📅 MODULE 24 — INTERVIEW PRACTICE
+
+This happens continuously throughout the 3 months.
+
+---
+
+## Java
+
+* [ ] OOP questions
+* [ ] Collections questions
+* [ ] Java 8 questions
+* [ ] Multithreading questions
+* [ ] JVM questions
+
+---
+
+## Spring
+
+* [ ] Spring questions
+* [ ] Spring Boot questions
+* [ ] JPA questions
+* [ ] Security questions
+
+---
+
+## Backend
+
+* [ ] REST questions
+* [ ] Database questions
+* [ ] Microservices questions
+
+---
+
+## Scenario Questions
+
+Example:
+
+> Your API is slow. How would you debug it?
+
+Example:
+
+> Your Kafka consumer processes duplicate messages. What would you do?
+
+Example:
+
+> Your application is consuming too much memory. How would you investigate?
+
+---
+
+# 🧠 MODULE 25 — REVISION SYSTEM
+
+This will run throughout the journey.
+
+---
+
+## Daily
+
+```text
+Today's Topic
+
++
+
+Yesterday's Topic
+
++
+
+One Older Topic
+```
+
+---
+
+## Weekly
+
+```text
+Week Revision
+
++
+
+Interview Questions
+
++
+
+Hands-on
+```
+
+---
+
+## Monthly
+
+```text
+Mock Interview
+
++
+
+Weak Area Analysis
+
++
+
+Project Review
+```
+
+---
+
+# 🎯 COMPLETE LEARNING STRUCTURE
+
+Our actual journey will look like this:
+
+```text
+CORE JAVA
+    │
+    ▼
+OOP
+    │
+    ▼
+COLLECTIONS
+    │
+    ▼
+JAVA 8+
+    │
+    ▼
+MULTITHREADING
+    │
+    ▼
+JVM
+    │
+    ▼
+SOLID
+    │
+    ▼
+SPRING
+    │
+    ▼
+SPRING BOOT
+    │
+    ▼
+JPA
+    │
+    ▼
+SQL
+    │
+    ▼
+DOCKER
+    │
+    ▼
+AWS
+    │
+    ▼
+KAFKA
+    │
+    ▼
+MICROSERVICES
+    │
+    ▼
+KUBERNETES
+    │
+    ▼
+SYSTEM DESIGN
+    │
+    ▼
+AI DOCUMENT PLATFORM
+```
